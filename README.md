@@ -24,10 +24,10 @@ Four app types that reliably work in a single build prompt. Full prompt skeleton
 
 | App type | Path | Starter prompt skeleton |
 |---|---|---|
-| Habit / personal tracker | Artifact (publish link) | "Build an interactive artifact: a [habit/mood/water] tracker with a weekly grid, streak counter, one-tap logging. Persist data between visits. Mobile-friendly, big touch targets." |
-| Dashboard from a spreadsheet | Artifact + attach CSV | "Here's my data [attach/paste CSV]. Build an interactive dashboard artifact with 3 charts answering [question], filter by [column], one-line insight at the top." |
-| Landing page | Artifact → Netlify Drop | "Create a polished single-file HTML landing page for [product/event]: hero, 3 benefit cards, testimonial, email-signup placeholder, [brand] colors, all CSS inline." |
-| Tiny utility / tool | Artifact, or Remix one from the artifacts gallery | "Build a [tip splitter / converter / countdown / decision spinner] as an interactive artifact: one screen, instant results as I type, large friendly controls." |
+| Habit / personal tracker | Local index.html (Code tab) | "Build a [habit/mood/water] tracker with a weekly grid, streak counter, one-tap logging. Save data in the browser. Single index.html, plain HTML/CSS/JS, no installs." |
+| Dashboard from a spreadsheet | Local index.html + pasted CSV | "Here's my data [paste CSV]. Build a dashboard with 3 charts answering [question], filter by [column], one-line insight at the top. Single index.html, no installs." |
+| Landing page | Local index.html → Netlify Drop | "Create a polished landing page for [product/event]: hero, 3 benefit cards, testimonial, email-signup placeholder, [brand] colors. Single index.html, all CSS inline." |
+| Tiny utility / tool | Local index.html | "Build a [tip splitter / converter / countdown / decision spinner]: one screen, instant results as I type, large friendly controls. Single index.html, no installs." |
 
 ## Links and tools
 
