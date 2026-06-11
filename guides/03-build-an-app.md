@@ -2,17 +2,21 @@
 
 Goal: a working app running locally on your own computer, built from the prompt you wrote in Session 2. Not a chat artifact on a website. A real file, in a real folder, that does what you told it to do.
 
-## The build path
+## The build path: brainstorm → plan → build
+
+This is the same three-beat loop every professional Claude workflow uses (it's the heart of the popular brainstorming and feature-development skills): explore the idea before you build, plan before you code, then build small.
 
 ```
-1. Make a folder on your Desktop: my-app
-2. Claude Desktop → Code tab → Select folder → pick it
-   (No Code tab? The Cowork tab pointed at the same folder works too.)
-3. Paste your bridge-prompt output from Session 2, then add:
+1. BRAINSTORM — paste the bridge prompt from Session 2 on your
+   Session 1 deliverable. Claude hands back a build prompt.
+2. PLAN — read it. Cut scope to ONE screen. Tell Claude what to
+   drop. Plan first, build second.
+3. BUILD — make a Desktop folder (my-app) → Claude Desktop →
+   Code tab → Select folder → paste the prompt, then add:
    "Build it as a single index.html — plain HTML/CSS/JS,
     no installs, no frameworks."
-4. ONE build prompt + max 2 refinements (protect your usage)
-5. Double-click index.html. That's your app.
+   ONE build + max 2 refinements → double-click index.html.
+   (No Code tab? The Cowork tab pointed at the same folder works too.)
 ```
 
 ### Why a single index.html
@@ -82,7 +86,7 @@ Drag your `index.html` (inside a folder) onto [app.netlify.com/drop](https://app
 
 ## When you're serious: the production stack
 
-The single file proves the idea. When an app needs real users, accounts, and a database, the AI-native production stack I recommend is:
+The single file proves the idea. When an app needs real users, accounts, and a database, the AI-native production stack I recommend is TypeScript plus three services — a huge share of simple web apps are built with just these three and Claude:
 
 - **[Vercel](https://vercel.com)** for hosting and deployment. Push code, get a URL, previews on every change.
 - **[Supabase](https://supabase.com)** for the database, auth, and storage. Postgres with a generous free tier.
