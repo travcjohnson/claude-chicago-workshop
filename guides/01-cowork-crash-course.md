@@ -33,6 +33,19 @@ Tell Claude three things: **what to produce, for whom, and in what format.** "Su
 
 If the output is wrong, the instructions were wrong. **Fix the instructions, not the AI.** You are the prompt master. Don't argue with the output in chat, edit the prompt and run it again. One full iteration of this loop teaches you more than an hour of theory.
 
+## Connectors: types of apps, and what's possible
+
+Connectors are where Cowork's context comes from. One catalog, 350+ of them, shared across all of Claude. Four families cover most knowledge work:
+
+| Family | Examples | One prompt that works tonight |
+|---|---|---|
+| Email & calendar | Gmail, Microsoft 365 | "Scan my inbox and keep a running tracker of every event signup." |
+| Docs & drives | Google Drive, SharePoint | "Read every contract in this folder and flag the renewal dates." |
+| CRM & sales | HubSpot, Attio | "Pull this week's pipeline and draft my follow-ups." |
+| Design & team | Canva, Slack, Asana | "Turn this report into a branded one-pager and post it to the channel." |
+
+Two gotchas: Microsoft 365 is read-only (it covers Outlook, OneDrive, SharePoint, and Teams; Pro and Max users enable it in desktop settings), and Excel is not a connector — Cowork just writes real .xlsx files to your folder. Browse the full catalog at [claude.com/connectors](https://claude.com/connectors).
+
 ## No connector? Zero-setup starters
 
 These are Anthropic's own launch demos. They need nothing connected and work for everyone:
